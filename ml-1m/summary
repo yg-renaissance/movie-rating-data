@@ -4,18 +4,14 @@
 "movies.dat"  MovieID::Title::Genres
 ================================================================================
 "ratings.dat"
-
 UserID::MovieID::Rating::Timestamp
-
 - UserIDs  1 ~ 6040 
 - MovieIDs 1 ~ 3952
 - Ratings  5-star scale (whole-star ratings only)
 - Timestamp is represented in seconds since the epoch as returned by time(2)
-
 ================================================================================
 "users.dat"
 UserID::Gender::Age::Occupation::Zip-code
-
 - Gender  "M" ,"F" 
 - Age 
 	*  1:  "Under 18"
@@ -47,15 +43,12 @@ UserID::Gender::Age::Occupation::Zip-code
 	* 18:  "tradesman/craftsman"
 	* 19:  "unemployed"
 	* 20:  "writer"
-
 ================================================================================
 "movies.dat"
 MovieID::Title::Genres
-
 - Titles are identical to titles provided by the IMDB (including
 year of release)
 - Genres are pipe-separated and are selected from the following genres:
-
 	* Action
 	* Adventure
 	* Animation
