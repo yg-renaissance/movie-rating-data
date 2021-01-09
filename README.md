@@ -3,7 +3,7 @@
 
 ## integrated File :integrated.csv (over 100mb)
 ## integrated Pandas DataFrame Pickle file : integrated.pkl
-
+![forwhat](./img/integrated.png)
 ### Data Structure
 "ratings.dat" UserID::MovieID::Rating::Timestamp
 "users.dat"   UserID::Gender::Age::Occupation::Zip-code
